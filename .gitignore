@@ -1,0 +1,63 @@
+Python
+
+pycache/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+Virtual environment
+
+.venv/
+venv/
+env/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+Local databases and backups
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-*
+
+Downloaded AI models and caches
+
+models/
+model/
+checkpoints/
+.cache/
+huggingface_cache/
+
+Generated images and outputs
+
+generated/
+outputs/
+generate_image/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+Logs
+
+*.log
+
+IDE and operating system
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#llama.cpp binaries
+llama/
+
+#Ai model files
+*.gguf
